@@ -67,7 +67,7 @@ Each module is equipped with local monitoring capabilities:
 
 This modular configuration enables the system to collect battery operating data across all 17 modules while maintaining centralized supervision.
 
-## System Architecture
+<!-- ## System Architecture
 
 The system follows a distributed master-slave architecture.
 
@@ -76,7 +76,7 @@ The system follows a distributed master-slave architecture.
 
 ![BMS System Architecture](Images/Architecture/system-architecture.png)
 
-</details>
+</details> --->
 
 ### Main Subsystems
 
@@ -177,15 +177,16 @@ All schematics and PCB layouts were developed using KiCad.
 
 #### Schematic
 
-![Slave BMS Schematic](Images/Schematics/slave-bms-schematic.png)
+![Slave BMS Schematic](BMS_Slave/SCHEMATICS.png))
 
 #### PCB Layout
 
-![Slave BMS PCB Layout](Images/PCB_Layout/slave-bms-pcb.png)
+![Slave BMS PCB Layout](BMS_Slave/PCBDESIGN.png)
 
 #### PCB 3D View
 
-![Slave BMS PCB 3D](Images/PCB_Layout/slave-bms-3d.png)
+![Slave BMS PCB 3D](BMS_Slave/3DView1.png))
+![Slave BMS PCB 3D](BMS_Slave/3DView2.png))
 
 </details>
 
