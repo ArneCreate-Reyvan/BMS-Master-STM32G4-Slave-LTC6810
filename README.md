@@ -67,17 +67,6 @@ Each module is equipped with local monitoring capabilities:
 
 This modular configuration enables the system to collect battery operating data across all 17 modules while maintaining centralized supervision.
 
-<!-- ## System Architecture
-
-The system follows a distributed master-slave architecture.
-
-<details>
-<summary>System architecture diagram placeholder</summary>
-
-![BMS System Architecture](Images/Architecture/system-architecture.png)
-
-</details> --->
-
 ### Main Subsystems
 
 | Subsystem | Main Component | Responsibility |
@@ -148,15 +137,16 @@ All schematics and PCB layouts were developed using KiCad.
 
 #### Schematic
 
-![Master BMS Schematic](Images/Schematics/master-bms-schematic.png)
+![Slave BMS Schematic](BMS_Master/SCHEMATICS.png)
 
 #### PCB Layout
 
-![Master BMS PCB Layout](Images/PCB_Layout/master-bms-pcb.png)
+![Slave BMS PCB Layout](BMS_Master/PCBDESIGN.png)
 
 #### PCB 3D View
 
-![Master BMS PCB 3D](Images/PCB_Layout/master-bms-3d.png)
+![Slave BMS PCB 3D](BMS_Master/3DView1.png)
+![Slave BMS PCB 3D](BMS_Master/3DView2.png)
 
 </details>
 
@@ -177,7 +167,7 @@ All schematics and PCB layouts were developed using KiCad.
 
 #### Schematic
 
-![Slave BMS Schematic](BMS_Slave/SCHEMATICS.png))
+![Slave BMS Schematic](BMS_Slave/SCHEMATICS.png)
 
 #### PCB Layout
 
@@ -185,8 +175,8 @@ All schematics and PCB layouts were developed using KiCad.
 
 #### PCB 3D View
 
-![Slave BMS PCB 3D](BMS_Slave/3DView1.png))
-![Slave BMS PCB 3D](BMS_Slave/3DView2.png))
+![Slave BMS PCB 3D](BMS_Slave/3DView1.png)
+![Slave BMS PCB 3D](BMS_Slave/3DView2.png)
 
 </details>
 
