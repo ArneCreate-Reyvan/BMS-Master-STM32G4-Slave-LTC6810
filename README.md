@@ -122,7 +122,6 @@ All schematics and PCB layouts were developed using KiCad.
 
 ### 1. Master BMS | STM32G4
 
-<details>
 <summary>Master BMS hardware overview</summary>
 
 **Main Controller:** STM32G4
@@ -148,13 +147,11 @@ All schematics and PCB layouts were developed using KiCad.
 ![Slave BMS PCB 3D](BMS_Master/3DView1.png)
 ![Slave BMS PCB 3D](BMS_Master/3DView2.png)
 
-</details>
 
 ---
 
 ### 2. Slave BMS | LTC6810
 
-<details>
 <summary>Slave BMS hardware overview</summary>
 
 **Battery Monitoring IC:** LTC6810
@@ -177,8 +174,6 @@ All schematics and PCB layouts were developed using KiCad.
 
 ![Slave BMS PCB 3D](BMS_Slave/3DView1.png)
 ![Slave BMS PCB 3D](BMS_Slave/3DView2.png)
-
-</details>
 
 ---
 
